@@ -1,0 +1,43 @@
+  /* src/styles/courses.css */
+ 
+.courses-container {
+    padding: 20px;
+  }
+  
+  .toggle-enrolled {
+    text-align: right;  
+    margin-bottom: 10px;  
+  }
+  
+  .toggle-button {
+    padding: 10px 20px;
+    font-size: 1rem;
+    border: none;
+    background-color: #007bff;
+    color: #fff;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease-in-out;
+    
+  }
+  
+  .toggle-button:hover {
+    background-color: #0056b3;
+  }
+  
+  .courses-list {
+    margin-top: 20px;
+  }
+  
+  .courses-list h2 {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+    
+  }
+  
+ 
+
+ 
+
+ 
+ 

@@ -1,0 +1,22 @@
+/* dashboard */
+.dashboard-cards{
+    margin-top: 10px;
+  }
+
+
+/* .content {
+    padding: 20px;
+  }
+  
+  .dashboard-cards {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 20px;
+  }
+  
+  @media (max-width: 768px) {
+    .dashboard-cards {
+      grid-template-columns: 1fr;
+    }
+  }
+   */

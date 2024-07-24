@@ -1,0 +1,44 @@
+ .login-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh; /* Ensure the login container covers the full height of the viewport */
+    background-color: #f0f0f0;
+    margin: 0 auto; /* Center horizontally */
+    max-width: 400px; /* Set a maximum width */
+    padding: 20px; /* Add padding for spacing inside the container */
+    box-sizing: border-box; /* Include padding and border in the element's total width and height */
+    
+}
+
+.login-container h2 {
+    margin-bottom: 20px; /* Additional spacing below the heading */
+}
+
+.login-container .form-group {
+    margin-bottom: 15px; /* Space between form groups */
+}
+
+.login-container .form-group label {
+    display: block;
+    margin-bottom: 5px; /* Space below labels */
+}
+
+.login-container .form-group input {
+    padding: 10px;
+    width: 100%; /* Full width input */
+    box-sizing: border-box; /* Include padding and border in input width */
+}
+
+.login-container button {
+    padding: 10px 20px; /* Padding for button */
+    background-color: #007bff; /* Button background color */
+    color: white; /* Button text color */
+    border: none; /* Remove border */
+    cursor: pointer; /* Cursor style */
+}
+
+.login-container button:hover {
+    background-color: #0056b3; /* Darker background on hover */
+}
