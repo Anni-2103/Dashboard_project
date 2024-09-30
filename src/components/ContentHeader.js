@@ -4,7 +4,7 @@ import '../styles/ContentHeader.css';
 
 const ContentHeader = ({ searchQuery, onSearchChange, handleLogout }) => {
   const logoutHandler = () => {
-    handleLogout(); // Call the logout function passed via props
+    handleLogout();  
   };
 
   return (

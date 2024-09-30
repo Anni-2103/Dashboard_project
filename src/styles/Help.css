@@ -1,4 +1,4 @@
-/* Help.css */
+ 
 
 .help-container {
     max-width: 800px;
@@ -57,7 +57,7 @@
     padding: 10px;
     border: 1px solid #ccc;
     border-radius: 4px;
-    resize: vertical; /* Allow vertical resizing */
+    resize: vertical;  
   }
   
   .feedback-form button {
@@ -75,7 +75,7 @@
     background-color: #0056b3;
   }
   
-  /* Responsive adjustments */
+   
   @media (max-width: 600px) {
     .help-container {
       padding: 10px;

@@ -45,7 +45,7 @@
   .card-link {
     display: block;
     margin-top: 10px;
-    color: #007bff; /* or your preferred link color */
+    color: #007bff;  
     text-decoration: none;
     text-align: center;
     font-weight: bold;
@@ -56,7 +56,7 @@
     color: #0056b3;
   }
 
-/* Additional styling as needed */
+ 
 
   @media (max-width: 768px) {
     .card-container {

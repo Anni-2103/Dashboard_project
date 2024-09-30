@@ -1,10 +1,10 @@
- /* src/styles/Content.css */
+  
 body {
     font-family: 'Roboto', sans-serif;
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    background-color: #f8f9fa; /* Light background for the entire body */
+    background-color: #f8f9fa;  
   }
   
   .app-container {
@@ -30,8 +30,8 @@ body {
     flex: 1;
     background-color: #f4f4f4;
     overflow-y: auto;
-    border-radius: 8px; /* Added rounded corners */
-    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Added shadow for depth */
+    border-radius: 8px;  
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);  
   }
   
   .header {
@@ -39,15 +39,15 @@ body {
     padding: 20px;
     background-color: #fff;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
-    border-radius: 8px; /* Added rounded corners */
-    display: flex; /* Flexbox for better alignment */
+    border-radius: 8px;  
+    display: flex;  
     align-items: center;
-    justify-content: space-between; /* Space between elements */
+    justify-content: space-between;  
   }
   
   .header-title {
-    font-size: 1.5rem; /* Increased font size */
-    color: #27374d; /* Darker text color */
+    font-size: 1.5rem;  
+    color: #27374d;  
   }
   
   .header-actions {

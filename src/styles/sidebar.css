@@ -1,20 +1,4 @@
-  /* .menu {
-    display: flex;
-    flex-direction: column;
-    gap: 2.3rem;
-    height: 100vh;
-    width: 250px;
-    background-color: #27374d; 
-    position: fixed;
-    padding: 20px;
-    box-shadow: 2px 0 5px rgba(0, 0, 0, 0.1);
-    font-family: 'Roboto', sans-serif;
-    color: #dde6ed;  
-    top: 0;
-    left: 0;
-  }    */
-  
-  /* Logo section */
+ 
    .logo {
     text-align: center;
     padding: 20px;
@@ -48,7 +32,7 @@
     font-size: 1.2rem;
   }  
   
-  /* Menu items */
+   
   .menu--list {
     display: flex;
     flex-direction: column;
@@ -79,140 +63,11 @@
     font-size: 1.5rem; 
   } 
    
-  /* Adjust sidebar height to prevent cut-off */
+   
   @media (max-height: 768px) {
     .menu {
       height: calc(100vh - 80px);  
     }
   }
 
-  /* Sidebar styles */
-/* .menu {
-  display: flex;
-  flex-direction: column;
-  gap: 2.3rem;
-  height: 100vh;
-  width: 250px;
-  background-color: #27374d;
-  position: fixed;
-  padding: 20px;
-  box-shadow: 2px 0 5px rgba(0, 0, 0, 0.1);
-  font-family: 'Roboto', sans-serif;
-  color: #dde6ed;
-  top: 0;
-  left: 0;
-  transition: transform 0.3s ease;
-}
-
-.menu.open {
-  transform: translateX(0);
-}
-
-.menu.closed {
-  transform: translateX(-100%);
-}
-
-.logo {
-  text-align: center;
-  padding: 20px;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  gap: 10px;
-}
-
-.logo-icon {
-  font-size: 2rem;
-}
-
-.profile-info {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  gap: 10px;
-}
-
-.profile-pic {
-  width: 60px;
-  height: 60px;
-  border-radius: 50%;
-  margin-bottom: 10px;
-  object-fit: cover;
-}
-
-.user-name {
-  font-size: 1.2rem;
-}
-
-.menu--list {
-  display: flex;
-  flex-direction: column;
-  gap: 20px;
-  padding-left: 20px;
-}
-
-.menu--list .item {
-  display: flex;
-  align-items: center;
-  gap: 10px;
-  font-size: 1.1rem;
-  text-decoration: none;
-  font-weight: 600;
-  padding: 10px;
-  border-radius: 10px;
-  transition: background-color 0.3s ease-in-out, color 0.3s ease-in-out;
-  color: #dde6ed;
-}
-
-.menu--list .item:hover,
-.menu--list .item.active {
-  background: #1b2a3e;
-  color: #dde6ed;
-}
-
-.icon {
-  font-size: 1.5rem;
-} */
-
-/* Hamburger menu */
-/* .hamburger {
-  display: none;
-  position: fixed;
-  top: 15px;
-  left: 15px;
-  background: #333;
-  color: #fff;
-  padding: 10px;
-  cursor: pointer;
-  z-index: 1000;
-}
-
-@media (max-width: 768px) {
-  .menu {
-    width: 200px;
-    transform: translateX(-100%);
-  }
-
-  .hamburger {
-    display: block;
-  }
-
-  .menu.open {
-    transform: translateX(0);
-  }
-
-  .menu--list {
-    padding-left: 0;
-  }
-
-  .menu--list .item {
-    justify-content: center;
-  }
-
-  .logo, .profile-info {
-    align-items: center;
-  }
-} */
-
-
- 
+   

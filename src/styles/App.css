@@ -1,5 +1,4 @@
 
-/* App.css */
 body {
   font-family: 'Roboto', sans-serif;
   margin: 0;
@@ -14,15 +13,7 @@ body {
   overflow: hidden;
 }
 
-/* .menu {
-  width: 250px;
-  background-color: #27374d;
-  position: fixed;
-  height: 100vh;
-  padding-top: 20px;
-  box-shadow: 2px 0 5px rgba(0, 0, 0, 0.1);
-}  */
-
+ 
 .menu {
   display: flex;
   flex-direction: column;

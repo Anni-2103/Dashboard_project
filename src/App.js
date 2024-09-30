@@ -3,7 +3,6 @@ import { BrowserRouter as Router } from 'react-router-dom';
 import Sidebar from './components/Sidebar';
 import AppRoutes from './AppRoutes';
 import './styles/App.css';
-// import { courses } from './data/coursesData.js';
 import ContentHeader from './components/ContentHeader.js';
 
 const App = () => {
